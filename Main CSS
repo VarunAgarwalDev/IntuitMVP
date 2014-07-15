@@ -1,86 +1,81 @@
 h1{
-    color: #C0C0C0;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.25em;
-    font-weight: lighter;
-    font-size: 5em;
+	color: #C0C0C0;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.25em;
+	font-weight: lighter;
+	font-size: 5em;
 }
-  
 h2, h3, p {
-  color: #FFFFFF;
-  text-align:center;
+	color: #FFFFFF;
+	text-align:center;
 }
 
 .meter { 
-  height: 20px;  /* Can be anything */
-  position: relative;
-  background: #555;
-  -moz-border-radius: 25px;
-  -webkit-border-radius: 25px;
-  border-radius: 25px;
-  padding: 10px;
-  -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
-  -moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
-  box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+	height: 20px;  /* Can be anything */
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+	-moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+	box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
 }
-
 .meter > span {
-  display: block;
-  height: 100%;
-    -webkit-border-top-right-radius: 8px;
-  -webkit-border-bottom-right-radius: 8px;
-        -moz-border-radius-topright: 8px;
-     -moz-border-radius-bottomright: 8px;
-            border-top-right-radius: 8px;
-         border-bottom-right-radius: 8px;
-     -webkit-border-top-left-radius: 20px;
-  -webkit-border-bottom-left-radius: 20px;
-         -moz-border-radius-topleft: 20px;
-      -moz-border-radius-bottomleft: 20px;
-             border-top-left-radius: 20px;
-          border-bottom-left-radius: 20px;
-  background-color: rgb(43,194,83);
-  background-image: -webkit-gradient(
-   linear,
-   left bottom,
-   left top,
-   color-stop(0, rgb(43,194,83)),
-   color-stop(1, rgb(84,240,84))
-);
-
-background-image: -webkit-linear-gradient(
-   center bottom,
-   rgb(43,194,83) 37%,
-   rgb(84,240,84) 69%
-);
-
-background-image: -moz-linear-gradient(
-  center bottom,
-  rgb(43,194,83) 37%,
-  rgb(84,240,84) 69%
-);
-
-background-image: -ms-linear-gradient(
-  center bottom,
-  rgb(43,194,83) 37%,
-  rgb(84,240,84) 69%
-);
-
-background-image: -o-linear-gradient(
-  center bottom,
-  rgb(43,194,83) 37%,
-  rgb(84,240,84) 69%
-  );
--webkit-box-shadow: 
- inset 0 2px 9px  rgba(255,255,255,0.3),
- inset 0 -2px 6px rgba(0,0,0,0.4);
--moz-box-shadow: 
- inset 0 2px 9px  rgba(255,255,255,0.3),
- inset 0 -2px 6px rgba(0,0,0,0.4);
-position: relative;
-overflow: hidden;
+	display: block;
+	height: 100%;
+	   -webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	       -moz-border-radius-topright: 8px;
+	    -moz-border-radius-bottomright: 8px;
+	           border-top-right-radius: 8px;
+	        border-bottom-right-radius: 8px;
+	    -webkit-border-top-left-radius: 20px;
+	 -webkit-border-bottom-left-radius: 20px;
+	        -moz-border-radius-topleft: 20px;
+	     -moz-border-radius-bottomleft: 20px;
+	            border-top-left-radius: 20px;
+	         border-bottom-left-radius: 20px;
+	background-color: rgb(43,194,83);
+	background-image: -webkit-gradient(
+	  linear,
+	  left bottom,
+	  left top,
+	  color-stop(0, rgb(43,194,83)),
+	  color-stop(1, rgb(84,240,84))
+	 );
+	background-image: -webkit-linear-gradient(
+	  center bottom,
+	  rgb(43,194,83) 37%,
+	  rgb(84,240,84) 69%
+	 );
+	background-image: -moz-linear-gradient(
+	  center bottom,
+	  rgb(43,194,83) 37%,
+	  rgb(84,240,84) 69%
+	 );
+	background-image: -ms-linear-gradient(
+	  center bottom,
+	  rgb(43,194,83) 37%,
+	  rgb(84,240,84) 69%
+	 );
+	background-image: -o-linear-gradient(
+	  center bottom,
+	  rgb(43,194,83) 37%,
+	  rgb(84,240,84) 69%
+	 );
+	-webkit-box-shadow: 
+	  inset 0 2px 9px  rgba(255,255,255,0.3),
+	  inset 0 -2px 6px rgba(0,0,0,0.4);
+	-moz-box-shadow: 
+	  inset 0 2px 9px  rgba(255,255,255,0.3),
+	  inset 0 -2px 6px rgba(0,0,0,0.4);
+	position: relative;
+	overflow: hidden;
 }
+
 
 #cssmenu ul { margin: 0; padding: 0;}
 
@@ -96,33 +91,33 @@ overflow: hidden;
 
 #cssmenu {
 
-height: 70px;	 /* This is for the main menu bit at the top */
+	height: 70px;			/* This is for the main menu bit at the top */
 
-width: 100%;	 /* This means on every screen no matter the size, the width will cover the top  */
+	width: 100%;			/* This means on every screen no matter the size, the width will cover the top  */
 
-line-height: normal;
+	line-height: normal;
 
-text-align: center;
+	text-align: center;
 
-background-color: rgb(35,35,35); 
+	background-color: rgb(35,35,35); 
 
-box-shadow: 0px 2px 3px rgba(0,0,0,.4);
-
-vertical-align: middle;
+	box-shadow: 0px 2px 3px rgba(0,0,0,.4);
+	
+	vertical-align: middle;
 
 }
 
 #cssmenu > ul {
-   text-align:center;
+    text-align:center;
 }
 
 #cssmenu > ul > li {
 
-   display:inline-block;
+    display:inline-block;
 
-   margin-left: 15px;       /* This is when the drop down box appears */
+    margin-left: 15px;       /* This is when the drop down box appears */
 
-   position: relative;
+    position: relative;
 
 }
 
@@ -130,25 +125,25 @@ vertical-align: middle;
 
 #cssmenu > ul > li > a {
 
-   color: rgb(160,160,160);
+    color: rgb(160,160,160);
 
-   font-family: Verdana, 'Lucida Grande';
+    font-family: Verdana, 'Lucida Grande';
 
-   font-size: 14px;
+    font-size: 14px;
 
-   line-height: 70px;	 /* This bit chances the size of the text on the main heading */
+    line-height: 70px;		/* This bit chances the size of the text on the main heading */
 
-   padding: 15px 24px;	 /* This is the padding between the different titles */
+    padding: 15px 24px;		/* This is the padding between the different titles */
 
-
+	
 
 -webkit-transition: color .15s;
 
-  -moz-transition: color .15s;
+   -moz-transition: color .15s;
 
-    -o-transition: color .15s;
+     -o-transition: color .15s;
 
-       transition: color .15s;
+        transition: color .15s;
 
 }
 
@@ -158,45 +153,45 @@ vertical-align: middle;
 
 #cssmenu > ul > li > ul {
 
-   opacity: 0;
+    opacity: 0;
 
-   visibility: hidden;
+    visibility: hidden;
 
-   padding: 16px 0 20px 0;
+    padding: 16px 0 20px 0;
 
-   background-color: rgb(250,250,250);
+    background-color: rgb(250,250,250);
 
-   text-align: left;  /* This is for the text when box is dropped down, centered isnt always totally in the middle so best to have on the left */
+    text-align: left;  /* This is for the text when box is dropped down, centered isnt always totally in the middle so best to have on the left */
 
-   position: absolute;
+    position: absolute;
 
-   top: 55px;	 /* This is for the drop down annimation */
+    top: 55px;			/* This is for the drop down annimation */
 
-   left: 50%;
+    left: 50%;
 
-   margin-left: -90px;
+    margin-left: -90px;
 
-   width: 180px;
+    width: 180px;
 
 -webkit-transition: all .3s .1s;
 
-  -moz-transition: all .3s .1s;
+   -moz-transition: all .3s .1s;
 
-    -o-transition: all .3s .1s;
+     -o-transition: all .3s .1s;
 
-       transition: all .3s .1s;
+        transition: all .3s .1s;
 
 -webkit-border-radius: 5px;
 
-  -moz-border-radius: 5px;
+   -moz-border-radius: 5px;
 
-       border-radius: 5px;
+        border-radius: 5px;
 
 -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
 
-  -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+   -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
 
-       box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+        box-shadow: 0px 1px 3px rgba(0,0,0,.4);
 
 }
 
@@ -204,11 +199,11 @@ vertical-align: middle;
 
 #cssmenu > ul > li:hover > ul {
 
-   opacity: 1;
+    opacity: 1;
 
-   top: 65px;	 /* This is how far from the top the drop down annimation will go  */
+    top: 65px;			/* This is how far from the top the drop down annimation will go  */
 
-   visibility: visible;
+    visibility: visible;
 
 }
 
@@ -216,23 +211,23 @@ vertical-align: middle;
 
 #cssmenu > ul > li > ul:before{
 
-   content: '';
+    content: '';
 
-   display: block;
+    display: block;
 
-   border-color: transparent transparent rgb(250,250,250) transparent;
+    border-color: transparent transparent rgb(250,250,250) transparent;
 
-   border-style: solid;
+    border-style: solid;
 
-   border-width: 10px;  /* The border on the drop down box  */ 
+    border-width: 10px;  /* The border on the drop down box  */ 
 
-   position: absolute;
+    position: absolute;
 
-   top: -20px;
+    top: -20px;
 
-   left: 50%;
+    left: 50%;
 
-   margin-left: -10px;
+    margin-left: -10px;
 
 }
 
@@ -244,25 +239,25 @@ vertical-align: middle;
 
 #cssmenu ul ul a{     /* This is the drop down menu, change font or size when its drops down */
 
-   color: rgb(50,50,50);
+    color: rgb(50,50,50);
 
-   font-family: Verdana, 'Lucida Grande';
+    font-family: Verdana, 'Lucida Grande';
 
-   font-size: 13px;   
+    font-size: 13px;   
 
-   background-color: rgb(250,250,250);
+    background-color: rgb(250,250,250);
 
-   padding: 5px 8px 7px 16px;
+    padding: 5px 8px 7px 16px;
 
-   display: block;
+    display: block;
 
 -webkit-transition: background-color .1s;
 
-  -moz-transition: background-color .1s;
+   -moz-transition: background-color .1s;
 
-    -o-transition: background-color .1s;
+     -o-transition: background-color .1s;
 
-       transition: background-color .1s;
+        transition: background-color .1s;
 
 }
 
@@ -276,67 +271,122 @@ vertical-align: middle;
 
 #cssmenu ul ul ul {   /* In this build i havent included a sub sub menu in, but here is the code if ever needed */
 
-   visibility: hidden;
+    visibility: hidden;
 
-   opacity: 0;
+    opacity: 0;
 
-   position: absolute;
+    position: absolute;
 
-   top: -16px;
+    top: -16px;
 
-   left: 206px;	 /* This is for a sub sub menu */
+    left: 206px;		/* This is for a sub sub menu */
 
-   padding: 16px 0 20px 0;
+    padding: 16px 0 20px 0;
 
-   background-color: rgb(250,250,250);
+    background-color: rgb(250,250,250);
 
-   text-align: left;
+    text-align: left;
 
-   width: 160px;
+    width: 160px;
 
 -webkit-transition: all .3s;
 
-  -moz-transition: all .3s;
+   -moz-transition: all .3s;
 
-    -o-transition: all .3s;
+     -o-transition: all .3s;
 
-       transition: all .3s;
+        transition: all .3s;
 
 -webkit-border-radius: 5px;
 
-  -moz-border-radius: 5px;
+   -moz-border-radius: 5px;
 
-       border-radius: 5px;
+        border-radius: 5px;
 
 -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
 
-  -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+   -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
 
-       box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+        box-shadow: 0px 1px 3px rgba(0,0,0,.4);
 
 }
 
 #cssmenu ul ul > li:hover > ul { 
-
-opacity: 1; 
-
-left: 196px; 
-
-visibility: visible;}
+	
+	opacity: 1; 
+	
+	left: 196px; 
+	
+	visibility: visible;}
 
 #cssmenu ul ul a:hover{
 
-   background-color: rgb(114,164,65);
+    background-color: rgb(114,164,65);
 
-   color: rgb(240,240,240);
+    color: rgb(240,240,240);
 
 }
 
 #wrapper #page #page-bgtop #page-bgbtm #content .post .entry table tr td {
 
-text-align: center;
+	text-align: center;
 
 }
 
 
 
+
+
+/*.menu {
+    background: #aaa;
+    width: 950px;
+    height: 50px;
+    float: right;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 80px;
+    border: 1px #FFF solid;
+}
+.menu #nav {
+    list-style: none;
+}
+.menu #nav li {
+    display: inline-block;
+    padding: 0px 30px 0px 30px;
+}
+.menu #nav li > div {
+    position: relative;
+}
+.menu #nav li a {
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #FFF;
+    text-decoration: none;
+}
+.menu #nav li a:hover {
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #FFF;
+    text-decoration: none;
+    color: #ca6666;
+}
+.menu #nav li a > .hover {
+    display: none;
+}
+.menu #nav li a:hover > .hover {
+    background: #333;
+    background-position:center;
+    width: 96px;
+    height: 33px;
+    color: #ca6666;
+    font-weight: bold;
+    display: block;
+    top: -20px;
+    position: absolute;
+}
+.clear {
+    clear: both;
+}

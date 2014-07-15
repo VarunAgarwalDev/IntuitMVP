@@ -27,7 +27,7 @@
 <!--
 <table border="0" cellspacing="0" cellpadding="0"><tr><td align="center"><script type="text/javascript" src="http://www.worldtimeserver.com/clocks/embed.js"></script><script type="text/javascript" language="JavaScript">objUSNY=new Object;objUSNY.wtsclock="wtsclock001.swf";objUSNY.color="000000";objUSNY.wtsid="US-NY";objUSNY.width=200;objUSNY.height=200;objUSNY.wmode="transparent";showClock(objUSNY);</script></td></tr><tr><td align="center"><h2>New York</h2></td></tr></table>-->
 <div class="meter">
-	<span style="width: 50%"></span>
+	<span style="width: 25%"></span>
 </div>
 <div id='cssmenu'>
 
@@ -49,7 +49,21 @@
 		<center> Password: <input type="password" name="pwd"></center>
 		</form>
 
-        
+        <a href="http://www.w3schools.com/"><center>Sign Up! </center></a> 
+
+        <!--<li class='has-sub'><a href='history.html'><span>History Of Elvyn</span></a></li>
+
+        <li class='has-sub'><a href='lifeinelvyn.html'><span>Life In Elvyn</span></a></li>
+
+        <li class='has-sub'><a href='committee.html'><span>Our Committee</span></a></li>
+
+        <li class='has-sub'><a href='warden.html'><span>The Warden Team</span></a></li>
+
+        <li class='has-sub'><a href='http://www.lboro.ac.uk/services/campus-living/food-drink/halldiningfooddiaries/cateredhallmenu/' target="_blank"><span>Catered Menu</span></a></li>
+
+        <ul>
+
+        </ul>-->
 
         </ul>
 
@@ -57,7 +71,7 @@
 
     
 
-    <li class='has-sub'><a href='#'><span>Login</span></a>
+    <li class='has-sub'><a href='#'><span>Join the Revolution</span></a>
 
     <ul>
 
@@ -65,17 +79,49 @@
 
         <li class='has-sub'><a href='mediasubcommittee.html'><span>Sub-Committee</span></a></li>
 
-        <!--
         <li class='has-sub'><a href='https://www.facebook.com/ElvynRichardsMedia#' target="_blank"><span>Elvyn Images</span></a></li>
-		
 
         <li class='has-sub'><a href='http://www.youtube.com/channel/UCyKYhzsknhggkykoZR9KC-g/videos?flow=grid&view=0' target="_blank"><span>Elvyn TV</span></a></li>
 
         <li class='has-sub'><a href='elvynapp.html'><span>Elvyn App</span></a></li>
-		
-		-->
+
         <ul>
 
         </ul>
 
         </ul>
+
+
+ 
+
+
+<!--<div class="menu">
+    <ul id="nav">
+        <li>
+            <div><a href="#">HOME<div class="hover"></div></a> 
+            </div>
+        </li>
+        <li>
+            <div><a href="#">ABOUT<div class="hover"></div></a>
+            </div>
+        </li>
+        <li>
+            <div><a href="#">PORTFOLIO<div class="hover"></div></a>
+            </div>
+        </li>
+        <li>
+            <div><a href="#">SERVICE<div class="hover"></div></a>
+            </div>
+        </li>
+        <li>
+            <div><a href="#">BLOG<div class="hover"></div></a>
+            </div>
+        </li>
+        <li>
+            <div><a href="#">CONTACT<div class="hover"></div></a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</html>

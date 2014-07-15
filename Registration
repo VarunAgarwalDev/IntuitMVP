@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+	<meta charset = "utf-8">
+	<title>Registration </title>
+
+</head>
+
+<body>
+<h1><font size="30">Registration </font></h1>
+
+<div style="text-align:right;size:30">
+	<form name="registration">
+
+		<label> <strong> Name: </strong></label> <br/>
+		<input name = "firstname" type="text" placeholder="First" required = "required"> &nbsp;
+		<input name = "lastname" type = "text" placeholder="Last" required = "required"> <br/> <br/>
+		<label> <strong> Username: </strong></label> <br/>
+		<input name = "username" type="text" required="required"> <br/> <br/>
+		
+		<label> <strong> Password: </strong></label><br/>
+		<input name = "password" type="password" required="required"> <br/> <br/>
+		
+		<label> <strong>Email: </strong></label><br/>
+		<input name = "email" type="email" placeholder="              @gmail.com" required="required"> <br/> <br> </br>
+		<input type= "submit" value = "Register">
+	</form>
+
+</div>
+ 
+
+
+</body>
+</html>
